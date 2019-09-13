@@ -80,6 +80,10 @@ if encounter this
 ```
 ImportError: No module named _mask
 ```
+then
+```
+python2 setup.py build_ext --inplace
+```
 
 Then if encounter this error
 ```
